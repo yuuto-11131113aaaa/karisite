@@ -21,7 +21,7 @@ a {
 
 .logo {
     font-size: 200%;
-    font-family: "Lucida Console";
+    font-family: "Lucida Console",serif;
     font-weight: 550;
     color: #000;
 }
@@ -170,12 +170,49 @@ a {
     color: #333;
 }
 
+.footer {
+    margin-top: 100px;
+}
+
+.end_footer_before {
+    display: flex;
+    align-items: center;
+    margin: 5px 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+}
+
+.end_footer_before_cm {
+    width: 100px;
+    height: 56px;
+    margin: 3px;
+    border-radius: 5px;
+    border: solid 1px #d6d6d6;
+    background-color: #fff;
+}
+
+.end_footer_before_cm:hover {
+    filter: brightness(0.8);
+}
+
+.bosyu {
+    font-size: 90%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://thumb.photo-ac.com/35/3538eb56df8928d045a0275e9b924633_t.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
 .end_footer {
     margin: 0;
     background-color: #e4e4e4;
     border-top: solid 1px #d6d6d6;
     padding: 10px;
-    margin-top: 100px;
 }
 
 .end_footer_title {
@@ -231,6 +268,11 @@ a {
         margin: 0 2px;
         color: #4d4d4d;
         border-bottom: solid 1px #ffffff00;
+    }
+
+    .end_footer_before_cm {
+        width: 200px;
+        height: 112px;
     }
 
 }
